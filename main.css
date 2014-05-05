@@ -402,3 +402,35 @@ figure#bounce-logo {
     stroke-dashoffset: 0;
   }
 }
+
+.ballack {
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.grayscale:hover{
+	-webkit-filter:grayscale(1);
+}
+
+.sepia:hover {
+	-webkit-filter:sepia(1);
+}
+
+.saturate:hover{
+	-webkit-filter:saturate(0.3);
+}
+
+.saturate:active{
+	-webkit-filter:saturate(2.5);
+}
+
+.hue-rotate:hover{
+	-webkit-filter:hue-rotate(90deg);
+}
+.contrast:hover{
+	filter: contrast(2)
+}
+
