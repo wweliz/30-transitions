@@ -311,3 +311,94 @@ figure#bounce-logo {
 }
 
 
+.nps a, .nps a:visited {
+	font-family: 'Open Sans', sans-serif;
+	text-align:left;
+	color: black;
+	display: inline-block;
+	padding: 0;
+	margin:0;
+}
+
+
+.nps a:hover {
+	font-family: 'Open Sans', sans-serif;
+	text-align:left;
+	text-decoration: underline;
+	color: red;
+	display: inline-block;
+	padding: 0;
+	margin:0;
+}
+
+.hypbox {
+	display: block;
+	border: 1px solid;
+	width: 50%;
+	height: 20px;
+}
+
+.hypbox a {
+	height: 100%;
+	display: block;
+	background: #c8c8c8;
+	height: 100%;
+	text-align: center;
+}
+
+.hypbox a:hover {
+	background: #f8f8f8;
+	}
+
+.door {
+	width:115px;
+	height:283px;
+	margin:20px;
+    -webkit-animation: hinge 0.75s ease 0s infinite alternate;
+}
+
+@-webkit-keyframes hinge {
+    from {
+       -webkit-transform: perspective(300) rotateY(-90deg);
+       -webkit-transform-origin: 0% 0%;
+    }
+    to {
+       -webkit-transform: perspective(300) rotateY(0deg);
+        -webkit-transform-origin: 0% 0%;
+    }
+}
+
+.s2c {
+	height: 75px;
+	width: 75px;
+	background: #fea83b;
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
+    transition:all 1s;
+}
+.s2c:hover {
+    border-radius:50%;
+    background: #083451;
+    -webkit-transition:all 1s;
+	-moz-transition:all 1s;
+	transition:all 1s;
+}
+
+.path {
+  stroke-dasharray: 1700;
+  stroke-dashoffset: 1700;
+  -webkit-animation: dash 5s linear infinite;
+  animation: dash 5s linear infinite;
+}
+
+@-webkit-keyframes dash {
+    to {stroke-dashoffset: 0;
+    }
+}
+
+@keyframes dash {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
